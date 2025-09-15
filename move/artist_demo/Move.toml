@@ -1,0 +1,10 @@
+[package]
+name = "artist_demo"
+version = "0.0.1"
+authors = ["Resident: Onchain"]
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework" }
+
+[addresses]
+artist_demo = "_"
